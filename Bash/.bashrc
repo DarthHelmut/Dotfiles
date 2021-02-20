@@ -30,3 +30,4 @@ shopt -s autocd
 
 #.bashrc PS1 gen
 export PS1="\[$(tput bold)\]\[\033[38;5;201m\]\u\[$(tput sgr0)\]: \[$(tput bold)\]\@\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;163m\]\w\[$(tput sgr0)\]\n>\[$(tput sgr0)\]"
+neofetch
