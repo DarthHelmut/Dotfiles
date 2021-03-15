@@ -1,2 +1,2 @@
 # Dotfiles
-# If you are here you are FUCK
+# if you are here you know what to do
