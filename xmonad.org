@@ -62,8 +62,7 @@ import qualified Data.Map as M
 import Data.Maybe (maybeToList)
 
   -- Hooks
-import XMonad.Hooks.DynamicLog (dynamicLogWithPP, wrap, xmobarPP, xmobarColor, shorten, PP(..)
-)
+import XMonad.Hooks.DynamicLog (dynamicLogWithPP, wrap, xmobarPP, xmobarColor, shorten, PP(..))
 import XMonad.Hooks.EwmhDesktops ( ewmh )
 import XMonad.Hooks.ManageDocks
        ( avoidStruts, docks, manageDocks, Direction2D(D, L, R, U) )
@@ -75,8 +74,7 @@ import XMonad.Hooks.ServerMode
 
   -- Layouts
 import XMonad.Layout.NoBorders
-import XMonad.Layout.Fullscreen ( fullscreenEventHook, fullscreenManageHook, fullscreenSupport
-, fullscreenFull )
+import XMonad.Layout.Fullscreen ( fullscreenEventHook, fullscreenManageHook, fullscreenSupport, fullscreenFull )
 import XMonad.Layout.Spacing ( spacingRaw, Border(Border) )
 import XMonad.Layout.Gaps
     ( Direction2D(D, L, R, U),
